@@ -1,0 +1,40 @@
+/* Global Styles */
+* {
+    -fx-font-family: "Poppins";
+}
+
+AnchorPane {
+    -fx-background-color: #25252b;
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-fill: #ffffff;
+}
+
+.btn {
+    -fx-background-color: transparent;
+    -fx-border-color: #ff2770;
+    -fx-text-fill: #ff2770;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-border-radius: 20;
+}
+
+.btn:hover {
+    -fx-background-color: #ff2770;
+    -fx-text-fill: #25252b;
+}
+
+.signup-link {
+    -fx-fill: #ff2770;
+    -fx-cursor: hand;
+}
+
+.signup-link:hover {
+    -fx-underline: true;
+}
+
+Rectangle {
+    -fx-fill: linear-gradient(to top right, #25252b, #ff2770);
+}
